@@ -1,0 +1,57 @@
+{
+  "timestamp": 1787967912.0920634,
+  "export_date": "Sat Aug 29 01:45:12 2026",
+  "total_users": 3,
+  "user_balances": {
+    "8598790977": 356.0,
+    "7234698079": 0.0,
+    "5546452717": 0.0
+  },
+  "user_profiles": {
+    "8598790977": {
+      "joined_at": 1787837669.2444487,
+      "username": "arshxy",
+      "first_name": "#1",
+      "currency": "USD",
+      "lt_games": 1,
+      "lt_wins": 0,
+      "lt_won": 0.0,
+      "lt_wagered": 200.0,
+      "lt_first_game_ts": 1787967685,
+      "lt_last_game_ts": 1787967685
+    },
+    "5546452717": {
+      "joined_at": 1787846994.3596997,
+      "username": "carinatae",
+      "first_name": "dry",
+      "currency": "USD"
+    }
+  },
+  "user_levels": {},
+  "user_wagering_totals": {
+    "8598790977": 200.0
+  },
+  "user_match_history": {
+    "8598790977": [
+      {
+        "timestamp": 1787967685,
+        "id": "85694",
+        "game": "dice",
+        "bet": 200.0,
+        "result": "loss",
+        "winnings": 0,
+        "profit": -200.0
+      }
+    ]
+  },
+  "referral_data": {},
+  "referral_earnings": {},
+  "user_raffle_tickets": {},
+  "pending_deposits": {},
+  "pending_withdrawals": {},
+  "active_games": {},
+  "hilo_games": {},
+  "crypto_house_balances": {
+    "USDT": 1600.0
+  }
+}

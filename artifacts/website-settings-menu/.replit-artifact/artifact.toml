@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Website Settings Menu"
+description = "A responsive website shell with an always-visible Settings control and essential workspace tools including Files, Git, access, notifications, and account preferences."
+version = "1.0.0"
+id = "artifacts/website-settings-menu"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25535
+
+[services.development]
+run = "pnpm --filter @workspace/website-settings-menu run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/website-settings-menu", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/website-settings-menu/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25535"
+BASE_PATH = "/"
